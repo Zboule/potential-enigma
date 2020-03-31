@@ -1,0 +1,16 @@
+.flickr-search {
+    height: 100%;
+}
+
+.search-container {
+    height: 50px;
+    border-bottom: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallery-container {
+    height: calc(100% - 50px);
+}

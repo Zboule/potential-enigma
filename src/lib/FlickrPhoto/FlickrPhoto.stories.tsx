@@ -9,10 +9,11 @@ export default {
 export const Default = () => {
     return (
         <FlickrPhoto
-            farm="66"
+            farm={66}
             server="65535"
             id="49243611922"
             secret="a41c9e59f5_b"
+            title="Title"
         />
     )
 }

@@ -583,7 +583,7 @@ export const WithScrollLoading = () => {
             <PhotoGallery onScrollEnd={handleScrollEnd}>
                 {
                     photos.length > 0 && photos.map((photo) => {
-                        return <FlickrPhoto {...photo}></FlickrPhoto>
+                        return <FlickrPhoto key={photo.id} {...photo} ></FlickrPhoto>
                     })
                 }
             </PhotoGallery>

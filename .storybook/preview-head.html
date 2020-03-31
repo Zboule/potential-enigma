@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    // let imgElement = document.getElementById('imageSrc');
+    // let inputElement = document.getElementById('fileInput');
+    // inputElement.addEventListener('change', (e) => {
+    //   imgElement.src = URL.createObjectURL(e.target.files[0]);
+    // }, false);
+    // imgElement.onload = function () {
+    //   let mat = cv.imread(imgElement);
+    //   cv.imshow('canvasOutput', mat);
+    //   mat.delete();
+    // };
+    function onOpenCvReady() {
+        console.log('OpenCV.js is ready.');
+    }
+
+</script>
+<script async src="opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>

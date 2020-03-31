@@ -1,0 +1,28 @@
+.card {
+    &:hover {
+        transform: scale(1.05);
+    }
+    width: 20vw;
+    height: 20vw;
+    min-width: 200px;
+    min-height: 200px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 3px 4px 5px 3px #d6d1d1;
+    cursor: pointer;
+
+    .img-container {
+        height: 72%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .title {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
