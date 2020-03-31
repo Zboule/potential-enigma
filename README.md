@@ -5,6 +5,7 @@ With node.js installed, in the project folder run commands:
 
 ```
 npm i
+npm run build
 npm run serve
 ```
 
@@ -40,6 +41,8 @@ npm run storybook
 
 ## Architecture
 All the components are in src/lib. They have their own stylesheet and their own storybook test. They are build in isolation and have very few dependencies making them easier to test and easier to maintain. Storybook help to enforce this practice.
+
+It was a huge but a cool test project.
 
 If you have any question or issue, plase contact me.
 

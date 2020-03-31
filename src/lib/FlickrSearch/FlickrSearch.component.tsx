@@ -139,7 +139,7 @@ export class FlickrSearch extends React.Component<IProps, IState> {
             "format=json",
             "tags=" + search,
             "page=" + page,
-            "per_page=15",
+            "per_page=50",
             "content_type=7"
         ]
 
