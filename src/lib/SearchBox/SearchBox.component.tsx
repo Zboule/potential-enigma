@@ -28,14 +28,22 @@ export class SearchBox extends React.Component<IProps, IState> {
         this.props.onSearch(this.state.value)
     }
 
+    private keyPress = (e:any) => {
+        if (e.keyCode === 13) {
+            this.props.onSearch(this.state.value)
+        }
+    }
+
     public render(): JSX.Element {
         return (
 
             <Input
                 className="search-input"
                 id="outlined-size-normal"
-                placeholder="search"
+                placeholder="Search"
                 onChange={this.onChange}
+                onKeyDown={this.keyPress}
+                autoComplete="off"
                 endAdornment={
                     <InputAdornment position="end">
                         <IconButton
