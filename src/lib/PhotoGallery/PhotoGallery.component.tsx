@@ -23,7 +23,7 @@ export class PhotoGallery extends React.Component<IProps, IState> {
         return (
             <div className="photo-gallery" onScroll={this.props.onScrollEnd ? this.handleScroll : undefined}>
                 
-                {this.props.children || <div className="empty"><p>search something ...</p></div>}
+                {this.props.children || <div className="empty"><p>Start by searching something.</p></div>}
             </div>
         )
     }
